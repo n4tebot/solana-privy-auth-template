@@ -91,7 +91,7 @@ export default function UserProfile() {
 
   if (!user) return null;
 
-  const accounts = (user.linkedAccounts as Record<string, unknown>[])
+  const accounts = (user.linkedAccounts as unknown as Record<string, unknown>[])
     .map(parseLinkedAccount)
     .filter((a): a is LinkedAccount => a !== null);
 

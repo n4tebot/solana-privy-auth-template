@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import PrivyClientProvider from "@/providers/PrivyClientProvider";
 import "./globals.css";
 
+// Privy requires a valid App ID at runtime — skip static prerendering
+export const dynamic = "force-dynamic";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
