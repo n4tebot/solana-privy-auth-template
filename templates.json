@@ -1,0 +1,28 @@
+[
+  {
+    "description": "Templates maintained by the Solana community",
+    "name": "Community Templates",
+    "path": "community",
+    "templates": [
+      {
+        "description": "Next.js + Tailwind template with Privy authentication, social logins, and embedded Solana wallets",
+        "displayName": "Privy Auth",
+        "id": "gh:solana-developers/solana-privy-auth-template/community/privy-auth",
+        "image": "community/privy-auth/og-image.png",
+        "keywords": [
+          "solana",
+          "privy",
+          "authentication",
+          "social-login",
+          "embedded-wallet",
+          "nextjs",
+          "tailwind",
+          "typescript"
+        ],
+        "name": "privy-auth",
+        "path": "community/privy-auth",
+        "usecase": "Starter"
+      }
+    ]
+  }
+]
